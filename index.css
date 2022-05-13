@@ -1,0 +1,203 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* div * {
+    border: red solid 1px;
+} */
+
+.container {
+    background-color: black;
+    height: 1600px;
+}
+
+
+/* HEADER */
+
+.header {
+    height: 100px;
+}
+
+.logo img {
+    width: 250px;
+    height: 80px;
+}
+
+.logo {
+    padding: 10px 0px 0px 10px;
+    float: left;
+    width: 20%;
+}
+
+.textfield {
+    padding: 10px 0px;
+    float: left;
+    width: 50%;
+}
+
+.textfield input {
+    width: 1250px;
+    height: 40px;
+}
+
+.navi {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    position: relative;
+    left: 330px;
+}
+
+.navibar li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.navibar a {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #8C181B;
+    border: #8C181B solid 1px;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+
+/* main / KEYBOARD */
+
+.keyboard img {
+    height: 800px;
+    width: 100%;
+}
+
+.text img {
+    height: 120px;
+    width: 150px;
+}
+
+.text {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    top: -260px;
+    left: 390px;
+}
+
+.text #webDev {
+    color: white;
+    background-color: black;
+    width: 1100px;
+    height: 30px;
+    font-size: 20px;
+}
+
+.text #code {
+    font-size: 40px;
+    color: white;
+}
+
+
+/* main / COURSE Technologies */
+
+.technologies {
+    align-items: center;
+    background-color: #1A1818;
+    position: relative;
+    top: -225px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+#tecText {
+    color: white;
+    text-shadow: 4px 4px 8px white;
+    text-align: center;
+    font-size: 85px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 30px;
+}
+
+.table {
+    border: #235A8D solid 1px;
+    border-radius: 30px;
+    width: 100px;
+    text-align: center;
+    background-color: #235A8D;
+    width: 500px;
+    height: 300px;
+    margin: 20px;
+}
+
+.table li {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    list-style-type: none;
+    font-size: 25px;
+}
+
+#headline {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    border-bottom: solid white 1px;
+    margin: 10px 30px;
+    padding-bottom: 20px;
+}
+
+.table input {
+    padding: 12px;
+    font-size: 20px;
+}
+
+.tables {
+    display: flex;
+}
+
+.frondEnd {
+    margin-left: 130px;
+}
+
+
+/* footer */
+
+.footer {
+    text-align: center;
+    position: relative;
+    top: -225px;
+    padding: 20px 0px;
+}
+
+.logoImage img {
+    width: 200px;
+    height: 50px;
+}
+
+#nameText {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 20px 0px 10px 0px;
+    color: white;
+}
+
+#rightsText {
+    color: white;
+}
+
+.nextPage {
+    padding-top: 20px;
+}
+
+.nextPage a {
+    text-decoration: none;
+    color: beige;
+}
+
+a:hover {
+    background-color: yellow;
+    color: black;
+}
